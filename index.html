@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--divinectorweb.com-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGROEQUIP</title>
+    
+    <!-- All CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+       (function(){
+        emailjs.init({
+        publicKey: "6K_oJl9oZ40XNqRuk",
+         });
+       })();
+    </script>
+    <script src="js/mail.js"></script>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span style="color: rgb(77, 145, 77);" col>Agro</span>Equip</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#Equipment">Equipment</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>        
+            </ul>
+          </div>
+        </div>
+      </nav>
+         
+         
+         
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/home-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Your Dream, Our Mission</h5>
+                              <p>Your farming dream is our mission. We provide the tools and technology to help you grow success, every step of the way.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/home-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Always Dedicated</h5>
+                              <p>We are dedicated to helping you achieve your farming dreams. With our innovative equipment.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/home-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Best Equipment for Your Farm</h5>
+                              <p>We offer only the best equipment to meet the demands of modern farming. From precision irrigation systems to high-tech harvesters, our products are designed for performance, reliability, and efficiency. Equip your farm with the tools that guarantee success.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- about section starts -->
+      <section id="about" class="about section-padding">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4 col-md-12 col-12">
+                      <div class="about-img">
+                          <img src="img/about.jpeg" alt="" class="img-fluid">
+                      </div>
+                  </div>
+                  <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                      <div class="about-text">
+                            <h2>We Provide the Best Quality <br/> Services Ever</h2>
+                            <p>AGROEQUIP is a trusted name in agricultural equipment, with decades of experience providing high-quality tools and machinery to farmers worldwide. Starting as a family-run business, AGROEQUIP has grown into a global leader, known for innovation, reliability, and a commitment to sustainability. <br/> The company's values are centered on quality, customer satisfaction, and environmentally friendly practices. With a dedicated team and a passion for advancing modern farming, AGROEQUIP continues to develop cutting-edge solutions that help farmers improve efficiency and productivity.</p>
+                            <a class="btn btn-warning" href="about.html">Learn More</a> 
+                        </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- about section Ends -->
+      <!-- services section Starts -->
+<section class="services section-padding" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center pb-5">
+                    <h2>Our Services</h2>
+                    <p>Explore the services we provide to enhance your farming operations with modern technology and reliable support.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Agricultural Equipment Sales -->
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <i class="bi bi-gear"></i>
+                        <h3 class="card-title">Agricultural Equipment Sales</h3>
+                        <p class="lead">We offer a wide range of high-quality farming tools and machinery, built to enhance efficiency and productivity.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Customized Solutions -->
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <i class="bi bi-tools"></i>
+                        <h3 class="card-title">Customized Solutions</h3>
+                        <p class="lead">Our tailored equipment solutions are designed to meet the specific needs of your farm, from small to large-scale operations.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Maintenance & Support -->
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <i class="bi bi-wrench"></i>
+                        <h3 class="card-title">Maintenance & Support</h3>
+                        <p class="lead">Our expert technicians provide regular maintenance and repairs to ensure your equipment stays in top condition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <!-- Consultation & Training -->
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <i class="bi bi-people"></i>
+                        <h3 class="card-title">Consultation & Training</h3>
+                        <p class="lead">We offer expert consultation and training to help you maximize the use of your equipment for better results.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Delivery & Installation -->
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                        <i class="bi bi-truck"></i>
+                        <h3 class="card-title">Delivery & Installation</h3>
+                        <p class="lead">We provide fast, reliable delivery and installation services to get your equipment up and running smoothly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- services section Ends -->
+
+      <!-- Equipment starts -->
+<section id="Equipment" class="Equipment section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Our Equipment</h2>
+            <p>Advanced agricultural equipment to boost productivity and efficiency <br>At every step of farming.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Product 1: Tractor -->
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="img/tractor.webp" class="img-fluid" alt="Tractor">
+              </div>
+              <h3 class="card-title">Multi-Purpose Tractor</h3>
+              <p class="lead">A versatile tractor designed for efficient fieldwork, featuring advanced technology for modern farming.</p>
+              <p><strong>Estimated Price:</strong> $50,000 - $80,000</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product 2: Harvester -->
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="img/harvester.avif" class="img-fluid" alt="Harvester">
+              </div>
+              <h3 class="card-title">High-Performance Harvester</h3>
+              <p class="lead">Built for large-scale crop harvesting, this machine ensures maximum efficiency and reduced labor costs.</p>
+              <p><strong>Estimated Price:</strong> $150,000 - $200,000</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product 3: Irrigation System -->
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="img/irrigation.jpg" class="img-fluid" alt="Irrigation System">
+              </div>
+              <h3 class="card-title">Advanced Irrigation System</h3>
+              <p class="lead">Save water while ensuring your crops get the right amount of moisture with our efficient irrigation systems.</p>
+              <p><strong>Estimated Price:</strong> $10,000 - $20,000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <!-- Product 4: Plowing Machine -->
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="img/plow.avif" class="img-fluid" alt="Plowing Machine">
+              </div>
+              <h3 class="card-title">Plowing Machine</h3>
+              <p class="lead">A sturdy plowing machine designed to turn soil efficiently and prepare it for planting.</p>
+              <p><strong>Estimated Price:</strong> $10,000 - $25,000</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product 5: Seed Planter -->
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="img/seed-planter.avif" class="img-fluid" alt="Seed Planter">
+              </div>
+              <h3 class="card-title">Seed Planter</h3>
+              <p class="lead">Ensures precision in planting, providing even distribution of seeds for various crops.</p>
+              <p><strong>Estimated Price:</strong> $5,000 - $15,000</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product 6: Balers -->
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-4">
+                <img src="img/Balers.jpg" class="img-fluid" alt="Balers">
+              </div>
+              <h3 class="card-title">Balers</h3>
+              <p class="lead"> Our balers are designed to collect and compact hay or straw into manageable bales.</p>
+              <p><strong>Estimated Price:</strong> $8,000 - $12,000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Equipment ends -->
+<!-- Contact starts -->
+<section id="contact" class="contact section-padding">
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header text-center pb-5">
+          <h2>Contact Us</h2>
+          <p>We look forward to hearing from you and helping you <br>Find the right solutions for your agricultural needs!</p>
+        </div>
+      </div>
+    </div>
+    <div class="row m-0">
+      <div class="col-md-12 p-0 pt-4 pb-4">
+        <!-- The form submits data -->
+        <form class="bg-light p-4 m-auto">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="mb-3">
+                <input class="form-control" name="name" id="name" placeholder="Full Name" required="" type="text">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="mb-3">
+                <input class="form-control" name="email" id="email" placeholder="Email" required="" type="email">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="mb-3">
+                <textarea class="form-control" name="message" id="message" placeholder="Message" required="" rows="3"></textarea>
+              </div>
+            </div>
+            <!-- Change button type to submit -->
+            <button class="btn btn-warning btn-lg btn-block mt-3" type="submit" onclick="sendMail()">Send Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-12 text-center">
+        <h2>AGROEQUIP</h2>
+        <p>123 Green Valley, Springfield, IL 62701</p>
+        <p>+1 (555) 123-4567</p>
+        <p>contact@agroequip.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact ends -->
+
+  
+      <!-- footer starts -->
+      <footer class="bg-dark p-2 text-center">
+          <div class="container">
+              <p class="text-white">All Right Reserved By AGROEQUIP</p>
+          </div>
+      </footer>
+      <!-- footer ends -->
+
+
+
+
+
+
+
+
+    
+    
+    <!-- All Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+<!--for getting the form download the code from download button-->
